@@ -22,7 +22,7 @@ item.value === 'UK' // true
 item.update('AU');
 item.value === 'AU'; // false
 
-item.toJson() // { country: 'US' }
+store.toJson() // { country: 'us' }
 ```
 
 ## Installation
