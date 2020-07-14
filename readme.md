@@ -5,6 +5,8 @@ Magmarath is a simple storage system for Javascript. It helps ensure that values
 ## Examples
 
 ```js
+const { Store, Item } = require('magmarath');
+
 const store = new Store();
 const item = new Item('country', {
   defaultValue: 'US',
