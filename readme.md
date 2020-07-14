@@ -18,6 +18,11 @@ store.addItem(item);
 store.fromJson({ country: 'UK' });
 
 item.value === 'UK' // true
+
+item.update('AU');
+item.value === 'AU'; // false
+
+item.toJson() // { country: 'US' }
 ```
 
 ## Installation
